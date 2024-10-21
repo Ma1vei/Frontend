@@ -1,0 +1,287 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+}
+
+.container {
+    max-width: 940px;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    padding: 21px 0;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.header button {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: inherit;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header button img {
+    margin-right: 16px;
+}
+
+main {
+    padding-top: 60px;
+    padding-bottom: 44px;
+    background-image: url(img/backgroung-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+}
+
+.main-header__img__logo {
+    margin-bottom: 60px;
+}
+
+.main-top__blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 90px;
+}
+
+.mait-top__block {
+    text-align: center;
+    width: 31%;
+    margin-top: 10px;
+}
+
+.mait-top__block h2 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.white-rotate__block {
+    background-color: white;
+    width: 31px;
+    height: 31px;
+    transform: rotate(45deg);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 28px;
+}
+
+.main-top__blocks p {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main__block {
+    margin-top: 37px;
+    background-image: url(img/news\ &\ photo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 43px 25px 35px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.left-main__block {
+    width: 46%;
+}
+
+.right-main__block {
+    width: 46%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.left-main__block h2 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+}
+
+.right-main__block h2 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.left-main__block p {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.right-main__block p {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+.main__block button {
+    background-color: black;
+    border: none;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    padding: 17px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 162px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.right-main__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.left-form {
+    width: 49%;
+}
+
+.right-form {
+    width: 49%;
+}
+
+.right-main__form label {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.right-main__form input {
+    background-color: inherit;
+    padding: 13px 0px 11px 15px;
+    border: 2px solid black;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+footer {
+    background-color: rgb(50, 50, 50);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__block {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 23px;
+}
+
+.middle-footer__block {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.middle-footer__block h3 {
+    margin-bottom: 20px;
+}
+
+.footer__link-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-footer__block a {
+    width: 43px;
+    height: 42px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-name {
+    border: 2px solid black;
+    background-color: inherit;
+    padding: 13px;
+    margin-top: 20px;
+    color: white;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
